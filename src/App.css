@@ -1,9 +1,20 @@
-.calculator{
-  width: 500px;
-  height: 500px;
-  border: 1px  solid black;
-  padding: 50px;
-  top: 200px;
-  left: 360px;
-  position: relative;
+@media (min-width:992px)
+{
+  .calculator{
+    width: 500px;
+    height: 500px;
+    border: 1px  solid black;
+    padding: 50px;
+    top: 200px;
+    left: 360px;
+    position: relative;
+  }
+  
+  .result{
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+  }
+
+
 }
