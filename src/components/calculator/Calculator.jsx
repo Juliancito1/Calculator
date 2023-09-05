@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Result from './Result';
+import Buttons from './Buttons';
 
 const Calculator = () => {
     return (
@@ -15,6 +16,7 @@ const Calculator = () => {
                     </Col>
                 </Row>
                 <Result></Result>
+                <Buttons></Buttons>
             </div>
         </Container>
     );
