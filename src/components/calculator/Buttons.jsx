@@ -5,7 +5,7 @@ const Buttons = () => {
   return (
     <section className="buttonsPad">
       <Container>
-        <Row>
+        <Row className="mt-lg-3">
           <Col lg={3}>
             <Button className="w-100">7</Button>
           </Col>
@@ -19,7 +19,7 @@ const Buttons = () => {
             <Button className="w-100">DEL</Button>
           </Col>
         </Row>
-        <Row>
+        <Row className="my-lg-3">
           <Col lg={3}>
             <Button className="w-100">4</Button>
           </Col>
@@ -33,7 +33,7 @@ const Buttons = () => {
             <Button className="w-100">+</Button>
           </Col>
         </Row>
-        <Row>
+        <Row className="mb-lg-3">
           <Col lg={3}>
             <Button className="w-100">1</Button>
           </Col>
@@ -47,7 +47,7 @@ const Buttons = () => {
             <Button className="w-100">-</Button>
           </Col>
         </Row>
-        <Row>
+        <Row className="mb-3">
           <Col lg={3}>
             <Button className="w-100">.</Button>
           </Col>
@@ -60,6 +60,14 @@ const Buttons = () => {
           <Col lg={3}>
             <Button className="w-100">x</Button>
           </Col>
+        </Row>
+        <Row>
+            <Col lg={6}>
+                <Button className="w-100">RESET</Button>
+            </Col>
+            <Col lg={6}>
+                <Button className="w-100">=</Button>
+            </Col>
         </Row>
       </Container>
     </section>
