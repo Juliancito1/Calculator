@@ -8,10 +8,10 @@ const Calculator = () => {
         <Container>
             <div className='calculator'>
                 <Row>
-                    <Col md={9} lg={9}>
+                    <Col xs={9} md={9} lg={9}>
                     <h3 className='text-light'>Calc</h3>
                     </Col>
-                    <Col md={3} lg={3}>
+                    <Col xs={3} md={3} lg={3}>
                     <h4 className='text-light'>Theme</h4>
                     </Col>
                 </Row>
