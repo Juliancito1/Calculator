@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 
 const Buttons = () => {
   return (
-    <section className="buttonsPad">
+    <section className="buttonsPad backgroundKeypad">
       <Container>
         <Row className="mt-lg-3">
           <Col lg={3}>
@@ -16,7 +16,7 @@ const Buttons = () => {
             <Button className="w-100 buttons">9</Button>
           </Col>
           <Col lg={3}>
-            <Button className="w-100 fs-4">DEL</Button>
+            <Button className="w-100 fs-4 resdel border-0">DEL</Button>
           </Col>
         </Row>
         <Row className="my-lg-3">
@@ -63,10 +63,10 @@ const Buttons = () => {
         </Row>
         <Row>
             <Col lg={6}>
-                <Button className="w-100 fs-5 ">RESET</Button>
+                <Button className="w-100 fs-5 resdel border-0">RESET</Button>
             </Col>
             <Col lg={6}>
-                <Button className="w-100 fs-5">=</Button>
+                <Button className="w-100 fs-5 equal border-0">=</Button>
             </Col>
         </Row>
       </Container>

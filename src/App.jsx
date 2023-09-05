@@ -5,9 +5,9 @@ import "./App.css"
 function App() {
 
   return (
-    <Container>
+    <section className="background">
       <Calculator></Calculator>
-    </Container>
+    </section>
   )
 }
 
