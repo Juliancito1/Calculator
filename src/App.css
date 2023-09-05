@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Maven+Pro&display=swap');
+
+*{
+  font-family: 'League Spartan', sans-serif;
+}
+
 @media (min-width:992px)
 {
   .calculator{
     width: 500px;
-    height: 550px;
+    height: 600px;
     border: 1px  solid black;
     padding: 50px;
     top: 200px;
@@ -19,7 +25,13 @@
   .buttonsPad{
     border: 1px solid black;
     margin-top: 20px;
-    height: 290px;
+    height: 340px;
+    border-radius: 10px;
+  }
+
+  .buttons{
+    font-size: 32px;
+    padding: 0px 0px 0px 0px;
     border-radius: 10px;
   }
 

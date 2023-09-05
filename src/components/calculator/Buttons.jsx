@@ -7,66 +7,66 @@ const Buttons = () => {
       <Container>
         <Row className="mt-lg-3">
           <Col lg={3}>
-            <Button className="w-100">7</Button>
+            <Button className="w-100 buttons">7</Button>
           </Col>
           <Col lg={3}>
-            <Button className="w-100">8</Button>
+            <Button className="w-100 buttons">8</Button>
           </Col>
           <Col lg={3}>
-            <Button className="w-100">9</Button>
+            <Button className="w-100 buttons">9</Button>
           </Col>
           <Col lg={3}>
-            <Button className="w-100">DEL</Button>
+            <Button className="w-100 fs-4">DEL</Button>
           </Col>
         </Row>
         <Row className="my-lg-3">
           <Col lg={3}>
-            <Button className="w-100">4</Button>
+            <Button className="w-100 buttons">4</Button>
           </Col>
           <Col lg={3}>
-            <Button className="w-100">5</Button>
+            <Button className="w-100 buttons">5</Button>
           </Col>
           <Col lg={3}>
-            <Button className="w-100">6</Button>
+            <Button className="w-100 buttons">6</Button>
           </Col>
           <Col lg={3}>
-            <Button className="w-100">+</Button>
+            <Button className="w-100 buttons">+</Button>
           </Col>
         </Row>
         <Row className="mb-lg-3">
           <Col lg={3}>
-            <Button className="w-100">1</Button>
+            <Button className="w-100 buttons">1</Button>
           </Col>
           <Col lg={3}>
-            <Button className="w-100">2</Button>
+            <Button className="w-100 buttons">2</Button>
           </Col>
           <Col lg={3}>
-            <Button className="w-100">3</Button>
+            <Button className="w-100 buttons">3</Button>
           </Col>
           <Col lg={3}>
-            <Button className="w-100">-</Button>
+            <Button className="w-100 buttons">-</Button>
           </Col>
         </Row>
         <Row className="mb-3">
           <Col lg={3}>
-            <Button className="w-100">.</Button>
+            <Button className="w-100 buttons">.</Button>
           </Col>
           <Col lg={3}>
-            <Button className="w-100">0</Button>
+            <Button className="w-100 buttons">0</Button>
           </Col>
           <Col lg={3}>
-            <Button className="w-100">/</Button>
+            <Button className="w-100 buttons">/</Button>
           </Col>
           <Col lg={3}>
-            <Button className="w-100">x</Button>
+            <Button className="w-100 buttons">x</Button>
           </Col>
         </Row>
         <Row>
             <Col lg={6}>
-                <Button className="w-100">RESET</Button>
+                <Button className="w-100 fs-5 ">RESET</Button>
             </Col>
             <Col lg={6}>
-                <Button className="w-100">=</Button>
+                <Button className="w-100 fs-5">=</Button>
             </Col>
         </Row>
       </Container>
