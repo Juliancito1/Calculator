@@ -8,11 +8,11 @@ const Calculator = () => {
         <Container>
             <div className='calculator'>
                 <Row>
-                    <Col lg={9}>
-                    <h3>Calc</h3>
+                    <Col md={9} lg={9}>
+                    <h3 className='text-light'>Calc</h3>
                     </Col>
-                    <Col lg={3}>
-                    <h4>Theme</h4>
+                    <Col md={3} lg={3}>
+                    <h4 className='text-light'>Theme</h4>
                     </Col>
                 </Row>
                 <Result></Result>
