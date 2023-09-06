@@ -13,7 +13,7 @@ const Calculator = () => {
                     </Col>
                     <Col xs={3} md={3} lg={3}>
                     <h4 className='text-light'>Theme</h4>
-                    <section className='d-flex justify-content-between'>
+                    <section className='d-flex justify-content-between text-light'>
                         <h6>1</h6>
                         <h6>2</h6>
                         <h6>3</h6>
