@@ -1,9 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Result from './Result';
 import Buttons from './Buttons';
 
-const Calculator = () => {
+const Calculator = ({background, setBackground}) => {
+
+    const [circle, setCircle] = useState(0);
+
+    const handleCircle = () => {
+        let move = 30
+        setCircle(circle + move);
+        if(circle === 0)
+        {
+            setBackground("background2")
+        }
+        if(circle === 30)
+        {
+            setBackground("background3")
+        }
+        if(circle > 30)
+        {
+            setBackground("background")
+            setCircle(0)
+        }
+    }
+
     return (
         <Container>
             <section className='calculator'>
@@ -19,7 +40,7 @@ const Calculator = () => {
                         <h6>3</h6>
                     </section>
                     <div className='slider'>
-                        <div className='circle btn'></div>
+                        <div className='circle btn border-0 btn-danger' onClick={handleCircle} style={{transform: `translateX(${circle}px)`}}></div>
                     </div>
                     </Col>
                 </Row>
