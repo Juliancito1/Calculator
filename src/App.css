@@ -10,12 +10,24 @@
 }
 
 .background2{
-  background-color: hsl(268, 75%, 9%);
+  background-color: lightgray;
   min-height: 100vh;
 }
 .background3{
-  background-color: lightgray;
+  background-color: hsl(268, 75%, 9%);
   min-height: 100vh;
+}
+
+.backgroundResult{
+  background-color: hsl(224, 36%, 15%);
+}
+
+.backgroundResult2{
+  background-color: hsl(0, 0%, 93%);
+}
+
+.backgroundResult3{
+  background-color: hsl(268, 71%, 12%);
 }
 
 @media (min-width:992px)
@@ -23,10 +35,6 @@
 
   .backgroundKeypad{
     background-color: hsl(223, 31%, 20%);
-  }
-
-  .backgroundResult{
-    background-color: hsl(224, 36%, 15%);
   }
   
   .calculator{
@@ -110,9 +118,6 @@
     background-color: hsl(223, 31%, 20%);
   }
 
-  .backgroundResult{
-    background-color: hsl(224, 36%, 15%);
-  }
   
   .calculator{
     width: 500px;
@@ -199,9 +204,6 @@
     background-color: hsl(223, 31%, 20%);
   }
 
-  .backgroundResult{
-    background-color: hsl(224, 36%, 15%);
-  }
   
   .calculator{
     width: 340px;

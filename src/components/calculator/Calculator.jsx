@@ -6,21 +6,24 @@ import Buttons from './Buttons';
 const Calculator = ({background, setBackground}) => {
 
     const [circle, setCircle] = useState(0);
-
+    const [backgroundResult, setBackgroundResult] = useState("backgroundResult")
     const handleCircle = () => {
         let move = 30
         setCircle(circle + move);
         if(circle === 0)
         {
             setBackground("background2")
+            setBackgroundResult("backgroundResult2")
         }
         if(circle === 30)
         {
             setBackground("background3")
+            setBackgroundResult("backgroundResult3")
         }
         if(circle > 30)
         {
             setBackground("background")
+            setBackgroundResult("backgroundResult")
             setCircle(0)
         }
     }
@@ -44,7 +47,7 @@ const Calculator = ({background, setBackground}) => {
                     </div>
                     </Col>
                 </Row>
-                <Result></Result>
+                <Result backgroundResult={backgroundResult}></Result>
                 <Buttons></Buttons>
             </section>
         </Container>
