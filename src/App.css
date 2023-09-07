@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Maven+Pro&display=swap');
+
+*{
+  font-family: 'League Spartan', sans-serif;
+}
+
+.background{
+  background-color: hsl(222, 26%, 31%);
+  min-height: 100vh;
+}
+
+.background2{
+  background-color: lightgray;
+  min-height: 100vh;
+}
+.background3{
+  background-color: hsl(268, 75%, 9%);
+  min-height: 100vh;
+}
+
+.backgroundResult{
+  background-color: hsl(224, 36%, 15%);
+}
+
+.backgroundResult2{
+  background-color: hsl(0, 0%, 93%);
+}
+
+.backgroundResult3{
+  background-color: hsl(268, 71%, 12%);
+}
+
+@media (min-width:992px)
+{
+
+  .backgroundKeypad{
+    background-color: hsl(223, 31%, 20%);
+  }
+  
+  .calculator{
+    width: 500px;
+    height: 600px;
+    padding: 50px;
+    top: 200px;
+    left: 360px;
+    position: relative;
+  }
+  
+  .result{
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+  }
+
+  .buttonsPad{
+    border: 1px solid black;
+    margin-top: 20px;
+    height: 340px;
+    border-radius: 10px;
+  }
+
+  .buttons{
+    font-size: 32px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 10px;
+    background-color: hsl(30, 25%, 89%);
+    color: black;
+    border: 0px; 
+  }
+
+  .buttons:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+  }
+
+  .resdel{
+    background-color: hsl(222, 26%, 31%);
+  }
+
+  .resdel:hover{
+    background-color: hsl(221, 36%, 62%);
+    transition: 0.5s;
+  }
+
+  .equal{
+    background-color: orangered;
+  }
+
+  .equal:hover{
+    background-color: rgba(228, 164, 141, 0.733);
+    transition: 0.5s;
+  }
+
+  .slider{
+    position: relative;
+    right: 5px;
+    width: 90px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+
+  .circle{
+    margin-left: 2px;
+    width: 20px !important;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+  }
+
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+
+  .backgroundKeypad{
+    background-color: hsl(223, 31%, 20%);
+  }
+
+  
+  .calculator{
+    width: 500px;
+    height: 600px;
+    padding: 50px;
+    top: 200px;
+    left: 100px;
+    position: relative;
+  }
+  
+  .result{
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+  }
+
+  .buttonsPad{
+    border: 1px solid black;
+    margin-top: 20px;
+    height: 340px;
+    border-radius: 10px;
+  }
+
+  .buttons{
+    font-size: 32px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 10px;
+    background-color: hsl(30, 25%, 89%);
+    color: black;
+    border: 0px; 
+  }
+
+  .buttons:hover{
+    transition: 0.5s;
+    background-color: white;
+    box-shadow: none;
+    color: black;
+  }
+
+  .buttons:active{
+    background-color: white;
+  }
+
+  .resdel{
+    background-color: hsl(222, 26%, 31%);
+  }
+
+  .resdel:hover{
+    background-color: hsl(221, 36%, 62%);
+    transition: 0.5s;
+  }
+
+  .equal{
+    background-color: orangered;
+  }
+
+  .equal:hover{
+    background-color: rgba(228, 164, 141, 0.733);
+    transition: 0.5s;
+  }
+
+  .slider{
+    position: relative;
+    right: 5px;
+    width: 90px;
+    height: 27px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+
+  .circle{
+    margin-left: 2px;
+    width: 25px !important;
+    height: 25px;
+    background-color: orange;
+    border-radius: 50%;
+  }
+
+}
+@media (min-width:360px) and (max-width:767px)
+{
+  .backgroundKeypad{
+    background-color: hsl(223, 31%, 20%);
+  }
+
+  
+  .calculator{
+    width: 340px;
+    height: 300px;
+    padding: 20px;
+    top: 0px;
+    position: relative;
+  }
+  
+  .result{
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+  }
+
+  .buttonsPad{
+    border: 1px solid black;
+    margin-top: 20px;
+    height: 340px;
+    border-radius: 10px;
+    
+  }
+
+  .buttons{
+    font-size: 32px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 10px;
+    background-color: hsl(30, 25%, 89%);
+    color: black;
+    border: 0px; 
+  }
+
+  .buttons:hover{
+    transition: 0.5s;
+    background-color: white;
+    box-shadow: none;
+    color: black;
+  }
+
+  .buttons:active{
+    background-color: white;
+  }
+
+  .resdel{
+    background-color: hsl(222, 26%, 31%);
+  }
+
+  .resdel:hover{
+    background-color: hsl(221, 36%, 62%);
+    transition: 0.5s;
+  }
+
+  .equal{
+    background-color: orangered;
+  }
+
+  .equal:hover{
+    background-color: rgba(228, 164, 141, 0.733);
+    transition: 0.5s;
+  }
+
+  .slider{
+    position: relative;
+    right: 10px;
+    width: 70px;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+
+  .circle{
+    margin-left: 2px;
+    width: 15px !important;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+  }
+
+}
+
+@media (min-width:375px) and (max-width:767px)
+{
+  .calculator{
+    width: 340px;
+    height: 300px;
+    padding: 20px;
+    top: 50px;
+    left: 10px;
+    position: relative;
+  }
+}
